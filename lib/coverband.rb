@@ -14,6 +14,7 @@ require 'coverband/reporters/base'
 require 'coverband/reporters/simple_cov_report'
 require 'coverband/reporters/console_report'
 require 'coverband/middleware'
+require 'coverband/sidekiq/middleware'
 require 'coverband/s3_report_writer'
 
 module Coverband
